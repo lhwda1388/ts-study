@@ -2,8 +2,8 @@
   interface Stack<T> {
     readonly size: number;
     push(value: T): void;
-    pop(): T | undefined | null;
-    peek(): T | undefined | null;
+    pop(): T;
+    peek(): T;
   }
 
   // 불변성 유지 하기위해 readonly
